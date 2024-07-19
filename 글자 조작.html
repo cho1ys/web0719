@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>글자 조작</title>
+    <script>
+        window.onload = function(){
+            let header = document.querySelectorAll('h1');
+            for(let i=0;i<header.length;i++){
+                let hd = header[i];
+            hd.style.color = 'violet';
+            hd.style.background = 'skyblue';
+            hd.innerHTML = 'From JavaScript';
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>header</h1>
+    <h1>header</h1>
+    <h1>header</h1>
+    
+</body>
+</html>
